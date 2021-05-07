@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class PrintAllPrimeFactors{
+public class PrintAlPrimeFactors{
 
 public static void main(String[] args) {
   // write your code here

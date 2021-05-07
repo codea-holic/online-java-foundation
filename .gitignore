@@ -1,3 +1,4 @@
 .cph/
 *.class
 Main.java
+.vscode/

@@ -1,4 +1,4 @@
-import java.io.*;
+package ArraysProblems;
 import java.util.*;
 
 public class Subarray {

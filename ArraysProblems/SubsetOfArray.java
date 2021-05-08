@@ -1,3 +1,4 @@
+package ArraysProblems;
 import java.util.*;
 
 public class SubsetOfArray {

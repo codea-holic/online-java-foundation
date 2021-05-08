@@ -1,4 +1,4 @@
-import java.io.*;
+package ArraysProblems;
 import java.util.*;
 
 // Easy -> Difference between maximum and minimum Value of an Array

@@ -13,9 +13,6 @@ public class PowerLinear {
         if(n == 0){
             return 1;
         }
-        if(n == 1){
-            return x;
-        }
         int pow = power(x, n - 1);
         return pow * x;
     }

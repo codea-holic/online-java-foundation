@@ -32,17 +32,17 @@ class TraverseDiagonally {
                 arr[i][j] = scan.nextInt();
             }
         }
-        int k = 0;
+        int k = 0, count = 0, dimen = n;
         while (k < n) {
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < n; j++) {
-                    if ((j - i) == k) {
-                        System.out.println(arr[i][j]);
-                    }
-                }
+            for (int i = 0; i < dimen; i++) {
+                System.out.println(arr[i][k]);
+                k++;
             }
-            k++;
+            dimen--;
+            count++;
+            if (k == n) {
+                k = count;
+            }
         }
-
     }
 }

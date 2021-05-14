@@ -1,6 +1,23 @@
 import java.io.*;
 import java.util.*;
 
+/* Question: - An n (no. of elements of an array) is given in first line and next line contains elements
+5
+3 1 0 7 5
+Print the Bar chart for corresponding elements
+
+Required Answer: - (Below) 
+            *
+			*		
+			*	*	
+			*	*	
+*			*	*	
+*			*	*	
+*	*		*	*
+
+You should print the bar chart with the help of asterick(*)
+*/
+
 public class PrintBarChart{
 
     public static void BarChart(int[] arr){

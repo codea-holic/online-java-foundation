@@ -18,6 +18,7 @@ public class Subarray {
                     System.out.print(arr[k] + " ");
                 }
                 System.out.println();
+                scn.close();
             }
         }
     }

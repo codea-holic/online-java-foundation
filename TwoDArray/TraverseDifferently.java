@@ -6,7 +6,6 @@ package TwoDArray;
 7  8  9
 Required Answer: - 1->4->7->8->5->2->3->6->9
 */
-import java.io.*;
 import java.util.*;
 
 public class TraverseDifferently {
@@ -24,7 +23,7 @@ public class TraverseDifferently {
                 arr[i][j] = scn.nextInt();
             }
         }
-
+        scn.close();
         int j = 0;
         for (int i = 0; i < arr[0].length; i++) {
             while (j < arr.length && j >= 0) {

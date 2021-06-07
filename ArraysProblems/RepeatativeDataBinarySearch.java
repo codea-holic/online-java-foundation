@@ -14,6 +14,7 @@ public static void main(String[] args) throws Exception {
         a[i] = scn.nextInt();
     }
     int data = scn.nextInt();
+    scn.close();
     int low = 0;
     int high = a.length - 1;
     int found = -1;
